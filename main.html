@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>GiftInfinity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="main.html"><img src="images/ilogo.png" width="200px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="products1.html">Products</a></li>
+                    
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="goodies.html"><img src="images/cart2.png" width="70px" height="70px" class="kit"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>GiftInfinity - <br> Get what you eye.</h1>
+                    <p>Great products, Great price, Great quality</p>
+                    <a href="products1.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image11.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/mug1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/frame1.jpg">
+
+                </div>
+                <div class="col-3">
+                    <img src="images/toys.jpg">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="sproducts.html"><img src="images/mug3.jpg"></a>
+                <a href="sproducts.html">
+                    <h4>MUG</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 399.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/toys3.jpg">
+                <h4>SOFT TOY</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 799.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/greeting2.jpg">
+                <h4>GREETING CARD</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 299.00</p>
+            </div>
+            <div class="col-4">
+                <marquee behavior="scroll" direction="left">
+                <img src="images/bottle1.jpg" style="float:right">
+                </marquee>
+                <h4>GLASS BOTTLE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 949.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/greeting5.jpg">
+                <h4>Greeting</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 299.00</p>  <!--aria hidden is visible in web pages but not accessible by other tools like screen readers-->
+            </div>
+            <div class="col-4">
+                <img src="images/keys2.jpg">
+                <h4>Key Chain</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 599.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/SGgoodies.jpg">
+                <h4>Christmas mug</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 599.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/mug3.jpg">
+                <h4>MUG</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 599.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/toys1.jpg">
+                <h4>SOFT TOYS</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 799.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/greeting3.jpg">
+                <h4>GREETING CARD</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 299.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/frame5.jpg">
+                <h4>FRAME</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 499.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/jars1.jpg">
+                <h4>CLASSIC JARS</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p><i class="fa fa-inr" aria-hidden="true"></i> 949.00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/giftset.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Product</p>
+                    <h1>A beautiful gift set</h1>
+                    <small>
+                        A box with watch , belt and a wallet. <br>
+
+                        1. Watch of utmost quality . <br>
+
+                        2. Belt. <br>
+
+                        3. A good quality wallet. <br>
+
+                     
+                    </small>
+                    <br>
+                    <a href="sproducts3.html" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I cannot say enough nice things about GiftInfinity, from their consistent release of elegant and contemporary products, to their professionalism and prompt and courteous customer service.It provides us quality products at good price.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/ms.jpg">
+                    <h3>Malvika sitlani <br>Indian Influencer</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>The best service I have ever gotten from developers. Great customer service to top it off. Fully responsive and minimalistic products are not easy to find. GiftInfinity is a perfect match for us, as it provides us quality products.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/bb.jpg">
+                    <h3>Bhuvan bam <br>A successful youtuber</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>When I found GiftInfinity, I knew that this website was exactly what we needed and that it would work perfectly. And surely it did! Professional looking website that has all the certified branded products.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/rr.jpg">
+                    <h3>Ritu Rathee <br>captain</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/cello.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/panda.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/misty.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/cadbury.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="images/nature.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="images/pslogo.png">
+                        <img src="images/aplogo1.jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="main.html"><img src="images/ilogo2.png" width="200px"></a>
+                    <p>Our Purpose is to Give Your proper stuff. <br> Great products, Great price, Great quality.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 - GiftInfinity</p>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
